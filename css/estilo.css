@@ -2,3 +2,29 @@ body{
     background-color: darkviolet;
     color:white;
 }
+.calculadora{
+    background-color: blue;
+    padding: 8px;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+}
+.display_calc{
+    background-color:transparent;
+    text-align: center;
+}
+#resultado{
+    padding: 2px;
+    background-color: black;
+    color: aquamarine;
+    text-align: center;
+}
+.button{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+
+}
+#btn_igual{
+    background-color: brown;
+}
