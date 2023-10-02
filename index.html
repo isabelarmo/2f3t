@@ -13,23 +13,28 @@
   <section class="calculadora">
     <div class="display_calc">
         <input id="resultado" readonly value="0" type="text">
-    <div class="btn">
-      <button>9</button>
-      <button>8</button>
-      <button>7</button>
-      <button>&#247;</button>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>x</button>
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>-</button>
-      <button>0</button>
-      <button>.</button>
-      <button>+</button>
-      <button id="btn_igual">=</button>
+        </div>
+      <div class="btn">
+        <button>On</button>
+        <button>C</button>
+        <button>%</button>
+        <button>&#8730;</button>
+      <button onclick="digitando ('7')">7</button>
+      <button onclick="digitando ('8')">8</button>
+      <button onclick="digitando ('9')">9</button>
+      <button onclick ="operacao('div')">&#247;</button>
+      <button onclick="digitando ('4')">4</button>
+      <button onclick="digitando ('5')">5</button>
+      <button onclick="digitando ('6')">6</button>
+      <button onclick ="operacao('mult')">x</button>
+      <button onclick="digitando ('1')">1</button>
+      <button onclick="digitando ('2')">2</button>
+      <button onclick="digitando ('3')">3</button>
+      <button onclick ="operacao('sub')">-</button>
+      <button onclick="digitando ('0')">0</button>
+      <button onclick="digitando ('.')">.</button>
+      <button onclick ="operacao('soma')">+</button>
+      <button onclick="calcula()" id="btn_igual">=</button>
     
     </div>
   </section>
