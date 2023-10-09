@@ -15,10 +15,10 @@
         <input id="resultado" readonly value="0" type="text">
         </div>
       <div class="btn">
-        <button>On</button>
-        <button>C</button>
-        <button>%</button>
-        <button>&#8730;</button>
+        <button onclick="onoff()">On</button>
+        <button onclick="zerar()">C</button>
+        <button onclick="porcentagem()">%</button>
+        <button onclick="raiz_quadrada()">&#8730;</button>
       <button onclick="digitando ('7')">7</button>
       <button onclick="digitando ('8')">8</button>
       <button onclick="digitando ('9')">9</button>
@@ -38,5 +38,8 @@
     
     </div>
   </section>
+  <script>
+    onoff();
+  </script>
 </body>
 </html>
