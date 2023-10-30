@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</body>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+  <section class="calculadora">
+    <div class="display_calc">
+        <input id="resultado" readonly value="0" type="text">
+        </div>
+      <div class="btn">
+        <button onclick="onoff()">On</button>
+        <button onclick="zerar()">C</button>
+        <button onclick="porcentagem()">%</button>
+        <button onclick="raiz_quadrada()">&#8730;</button>
+      <button onclick="digitando ('7')">7</button>
+      <button onclick="digitando ('8')">8</button>
+      <button onclick="digitando ('9')">9</button>
+      <button onclick ="operacao('div')">&#247;</button>
+      <button onclick="digitando ('4')">4</button>
+      <button onclick="digitando ('5')">5</button>
+      <button onclick="digitando ('6')">6</button>
+      <button onclick ="operacao('mult')">x</button>
+      <button onclick="digitando ('1')">1</button>
+      <button onclick="digitando ('2')">2</button>
+      <button onclick="digitando ('3')">3</button>
+      <button onclick ="operacao('sub')">-</button>
+      <button onclick="digitando ('0')">0</button>
+      <button onclick="digitando ('.')">.</button>
+      <button onclick ="operacao('soma')">+</button>
+      <button onclick="calcula()" id="btn_igual">=</button>
+    
+    </div>
+  </section>
+  <script>
+    onoff();
+  </script>
+</body>
+</html>
