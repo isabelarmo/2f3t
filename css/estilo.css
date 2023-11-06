@@ -27,3 +27,10 @@ button {
 #btn_igual {
     background-color: tomato;
 }
+.entrada{
+    width: 40px;
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    border: none;
+    border-bottom: 2px solid #fff ;
+}
