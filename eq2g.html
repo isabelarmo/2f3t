@@ -5,6 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <select onchange="set_sinal_a()" name="sinal_a" id="a">
+        <option selected value="+">+</option>
+        <option value="-">-</option>
+    </select>
+    <input class="entrada" type="number" onchange="set_valor_a()" id="valor_a">
+    <span>X<sup>2</sup></span>
+
+    <select onchange="set_sinal_b()" name="sinal_b" id="b">
+        <option selected value="+">+</option>
+        <option value="-">-</option>
+    </select>
+    <input class="entrada" type="number" onchange="set_valor_b()" id="valor_b">
+    <span>X</span>
+
+    <select onchange="set_sinal_c()" name="sinal_c" id="c">
+        <option selected value="+">+</option>
+        <option value="-">-</option>
+    </select>
+    <input class="entrada" type="number" onchange="set_valor_c()" id="valor_c">
+
+    <h5><span id="delta"></span></h5>
+
+    <span id="raiz"> = 0</span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <script scr= " ./js/script.js"></script>
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
@@ -33,5 +67,7 @@
 
     <span id="raiz"> = 0</span>
 
+</body>
+</html>
 </body>
 </html>
