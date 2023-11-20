@@ -34,3 +34,14 @@ button {
     border: none;
     border-bottom: 2px solid #fff ;
 }
+.pa {
+    width: 400px;
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+}
+.calculaPA input {
+    width: 45px;
+    border: none;
+    border: 1px solid #000;
+}
